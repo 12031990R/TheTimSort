@@ -1,4 +1,4 @@
-FROM josephsirwali/retrosort
+FROM josephsirwali/thetimsort
 
 # Add our configuration files and scripts
 WORKDIR /src
