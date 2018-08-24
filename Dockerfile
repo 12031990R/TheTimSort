@@ -1,4 +1,4 @@
-FROM josephsirwali/thetimsort
+FROM readytalk/nodejs
 
 # Add our configuration files and scripts
 WORKDIR /src
