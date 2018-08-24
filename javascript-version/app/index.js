@@ -8,8 +8,6 @@
        .on('data', function (chunk) {
            myArray.push(chunk);
            oldArray.push(chunk);
-           for (i = 0; i < chunk.length; ++i)
-               if (chunk[i] == 10) count++;
        })
        .on('end', function () {
 
